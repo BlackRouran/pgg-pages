@@ -1,0 +1,39 @@
+{
+  "name": "pgg-pages",
+  "version": "0.1.0",
+  "description": "this is pggpages",
+  "keywords": [
+    "pgg-pages",
+    "zce"
+  ],
+  "homepage": "https://github.com/BlackRouran/pgg-pages#readme",
+  "bugs": {
+    "url": "https://github.com/BlackRouran/pgg-pages/issues"
+  },
+  "license": "MIT",
+  "author": "pgg",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlackRouran/pgg-pages.git"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
